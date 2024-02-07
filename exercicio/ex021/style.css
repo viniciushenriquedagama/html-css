@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: PLayfair;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+nav>a{
+    text-decoration: none;
+}
+nav{
+    margin: auto auto 16px auto;
+    background-color: gray;
+    box-shadow: 5px 2px 4px 1px rgba(0, 0, 0, 0.253);
+}
+nav>a{
+    color: black;
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+body{
+    background-image: linear-gradient(90deg, lightgoldenrodyellow, rgb(121, 121, 106));
+    font-family:'Playfair' ;
+}
+aside{
+    text-decoration: overline;
+}
+footer>aside{
+      text-decoration:underline;
+      text-align: end;
+}
+footer>aside:hover{
+    color: lightgoldenrodyellow;
+}
+p{
+    font-weight: 600;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px 30px;
+    padding: 10px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 20px;
+}

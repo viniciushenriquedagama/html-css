@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, lightblue,rgba(0, 0, 255, 0.575));
+        }
+        main{
+            text-align:center;
+            font-size: 30px;
+            background-color: lightblue;
+            border: 1px solid rgba(150, 219, 241, 0.849);
+            border-radius: 20px;
+            width: 800px;
+            margin: auto;
+            box-shadow: 10px 10px 10px 1px rgba(173, 216, 230, 0.644);
+        }
+        p{
+            text-align: center;
+        }
+        div{
+           background-image: linear-gradient(90deg, rgba(224, 255, 255, 0.719), rgba(49, 160, 160, 0.842));
+           width: 100px;
+           border: 1px solid rgb(142, 214, 238) ;
+           border-radius: 20px;
+           margin: auto;
+           padding: 10px;
+           
+        }
+        div>#i{
+            display: none;
+        }
+        div:hover > #i{
+            display: block;
+            color: lightblue;
+        }
+        div:hover>p{
+             color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>exemplo de hover</h1>
+    </main>
+    <br>
+    <p> passe o mause abaixo</p>
+    <div>
+       
+        <p>passe aqui</p>
+        <p id="i">EXTRA</p>
+        
+    </div>
+</body>
+</html>

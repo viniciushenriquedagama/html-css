@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    background-color: mediumpurple;
+}
+h1{
+    background-color: blue;
+    color: lightseagreen;
+    text-align: center;
+    font-size: 200%;
+}
+h2{
+ background-image: linear-gradient(-800deg,rgb(0, 255, 128),blue,red);
+}
+a{
+background-image: linear-gradient(-100deg,rgb(255, 115, 0), rgb(0, 217, 255), rgb(92, 0, 128));
+font-size: 400%;
+}
