@@ -11,13 +11,22 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            height: 400px;
         }
         td{
             border: 1px solid black;
             padding: 5px;
+            text-align: center;
         }
         td.linha{
             background-color: aqua;
+            vertical-align: top;
+            text-align: right;
+            }
+        td.numero{
+                vertical-align: bottom;
+                text-align: end;
+                background-color: rgba(34, 32, 32, 0.185);
             }
     </style>
 </head>
@@ -28,9 +37,10 @@
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
+
         </tr>
         <tr>
-            <td>A2</td>
+            <td class="numero">A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
