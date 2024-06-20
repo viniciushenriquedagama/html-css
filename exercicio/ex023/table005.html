@@ -43,8 +43,19 @@
         padding-left: 10px;
         background-color: darkgrey;
         color: aliceblue;
-        font-weight: lighter;
+        font-weight: bold;
         text-shadow: 0.5px 1px 1px black;
+       }
+       td{
+        text-align: center;
+       }
+       tbody>tr>td{
+        text-align: center;
+       }
+       td.z{
+        background-color: darkgray;
+        color: white;
+        font-weight: bolder;
        }
     </style>
 </head>
@@ -95,9 +106,28 @@
                      <td>0.0</td>
                      <td>0.0</td>
                 </tr>
-                <th colspan="4"
-                class="m">Média de Exatas </th>
-                <td>0.0</td>
+                <tr>
+                    <th colspan="4"
+                    class="m">Média de Exatas </th>
+                    <td class="z">0.0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Humanas</th>
+                    <td>História</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="m">Média de Humanas</th>
+                    <td class="z">0.0</td>
+                </tr>
         </tbody>
     </table>
 </body>
