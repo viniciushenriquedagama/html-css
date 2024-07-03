@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(90deg, rgba(136, 47, 47, 0.281), rgba(112, 194, 194, 0.363));
+        }
+
+        iframe {
+            width: 95vw;
+            height: 45vh;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>testando iframe</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea perferendis quo quia impedit, quaerat dolore laborum
+        delectus at veniam quod fugit enim illum dolorum cupiditate, perspiciatis nemo, id eos soluta? Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Magnam quidem tenetur quaerat atque nobis animi, nam sit modi laudantium
+        aliquid. Ea nostrum consectetur, rem sapiente nobis ipsa quisquam magni enim? </p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">first page</a></li>
+        <li><a href="paginas-extras/page002.html" target="frame">second page</a></li>
+        <li><a href="paginas-extras/page003.html" target="frame">third page</a></li>
+    </ul>
+
+    <iframe id="if" name="frame" srcdoc="<h1>Escolha umas das opções acima" frameborder="0"></iframe>
+</body>
+
+</html>
