@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fomulario</title>
+    <style>
+        form{
+            background: linear-gradient(-50deg, rgba(0, 255, 255, 0.781), lightblue);
+            margin: auto;
+            width: 400px;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            margin: 10px;
+        }
+        input{
+            border-radius: 5px;
+        }
+        input#button{
+            border-radius: 10px;
+            border: 1px solid black;
+            background-color: white;
+            padding: 2%;
+            background: linear-gradient(90deg, lightblue, rgba(235, 103, 206, 0.836));
+        }
+    </style>
 </head>
 <body>
-    <h1>Meu formulario/h1>
-   <form>
-    <p><input type="text" name="name" id="name"></p>
-    <p><input type="text" name="sobrename" id="Sobrenome"></p>
-    <input type="button" value="">
+    <h1>My formulario</h1>
+   <form action="cadrasto.js" autocomplete="off">
+    <p><label for="name">Name:</label><input type="text" name="name" id="name"></p>
+    <p><label for="Sobrenome">Sobrenome:</label><input type="text" name="sobrename" id="Sobrenome"></p>
+    <input type="submit" value="Enviar" id="button">
    </form>          
 </body>
 </html>
